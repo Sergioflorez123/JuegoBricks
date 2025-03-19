@@ -4,10 +4,11 @@ run-name: Ejecutar pruebas unitarias con Pytest en Python (🧪)
 on:
   push:
     branches:
-      - main
+      - main 
   pull_request:
     branches:
       - main
+
 
 jobs:
   test:
